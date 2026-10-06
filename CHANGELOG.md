@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-10-06
+
 ### Added
 
 - Route interceptors by keyword: `{:interceptors [:auth/jwt :rate-limit]}` are looked up in `:interceptors`, the map that
@@ -37,5 +39,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 First release: the `:http/routes` Integrant component, which builds a Pedestal route table from route tuples and the chains of
 the handlers.
 
-[Unreleased]: https://github.com/AF2B/borba-routes-component/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/AF2B/borba-routes-component/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/AF2B/borba-routes-component/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/AF2B/borba-routes-component/releases/tag/v1.0.0
